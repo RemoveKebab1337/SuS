@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/et_email"
+        style="@style/viewCustom"
+        android:ems="10"
+        android:hint="@string/etEmail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        style="@style/viewCustom"
+        android:layout_below="@id/et_email"
+        android:ems="10"
+        android:hint="@string/etPassword"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/viewCustom"
+        android:layout_below="@id/et_password"
+        android:layout_marginTop="486dp"
+        android:background="@color/purple_200"
+        android:text="@string/login_title"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        style="@style/viewCustom"
+        android:layout_below="@id/btn_login"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:text="Забыли пароль?"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <Button
+        android:id="@+id/btn_register_account"
+        style="@style/viewCustom"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple_200"
+        android:text="@string/create_act"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="201dp" />
+</RelativeLayout>

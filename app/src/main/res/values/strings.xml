@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KebaB</string>
+    <string name="email">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="login_title">Войти</string>
+    <string name="create_act">Создать аккаунт</string>
+    <string name="etEmail">Введите E-mail</string>
+    <string name="etPassword">Введите пароль</string>
+    <string name="send_password_reset_email">Отправить письмо восстановления</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "844791174678",
+    "firebase_url": "https://fir-authapp-52eaf-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-authapp-52eaf",
+    "storage_bucket": "fir-authapp-52eaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844791174678:android:6c66b4354e73b1fc9ac737",
+        "android_client_info": {
+          "package_name": "com.example.kebab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844791174678-2fueeei49laobo34esjvm3lv6lh11pqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kebab",
+            "certificate_hash": "dd7a6e607ec2e822c966c8efad70c1d3aed2168c"
+          }
+        },
+        {
+          "client_id": "844791174678-js83rknbkn361c0rnv1ubhf73t9ptmfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3SP-k66lMX4wh0uTzYhEtPrvrAOrK5AU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844791174678-js83rknbkn361c0rnv1ubhf73t9ptmfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
