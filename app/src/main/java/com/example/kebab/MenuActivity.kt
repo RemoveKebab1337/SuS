@@ -21,15 +21,12 @@ class MenuActivity : AppCompatActivity() {
             updateUI()
             startActivity(Intent(this, PersonalCabinetActivity::class.java))
         }
-        binding.toChatButton.setOnClickListener{
-            val nick = intent.getStringExtra("Name")
-            val j = Intent(this, ChatActivity::class.java)
-            j.putExtra("Name", nick)
-            startActivity(j)
-        }
         binding.logout.setOnClickListener{
             mAuth?.signOut()
             finish()
+        }
+        binding.button.setOnClickListener {
+            startActivity(Intent(this, BCActivity::class.java))
         }
         initialise()
     }

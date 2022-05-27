@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/vi_seconds_lamp"
+        android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/circle_white" />
+
+    <LinearLayout
+        android:id="@+id/row_five_hours"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <View
+            android:id="@+id/vi_five_hours_lamp_0"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/left_rectangle_white" />
+        <View
+            android:id="@+id/vi_five_hours_lamp_1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_hours_lamp_2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_hours_lamp_3"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/right_rectangle_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_one_hour"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <View
+            android:id="@+id/vi_one_hour_lamp_0"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/left_rectangle_white" />
+        <View
+            android:id="@+id/vi_one_hour_lamp_1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_one_hour_lamp_2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_one_hour_lamp_3"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/right_rectangle_white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_five_minutes"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <View
+            android:id="@+id/vi_five_minutes_lamp_0"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/left_rectangle_white" />
+        <View
+            android:id="@+id/vi_five_minutes_lamp_1"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_2"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_3"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_4"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_5"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_6"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_7"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_8"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_9"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_five_minutes_lamp_10"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/right_rectangle_white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row_one_minute"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <View
+            android:id="@+id/vi_one_minute_lamp_0"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/left_rectangle_white" />
+        <View
+            android:id="@+id/vi_one_minute_lamp_1"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_one_minute_lamp_2"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/rectangle_white" />
+
+        <View
+            android:id="@+id/vi_one_minute_lamp_3"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/right_rectangle_white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_text_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="00:00:00"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:textFontWeight="700"
+         />
+
+</LinearLayout>
